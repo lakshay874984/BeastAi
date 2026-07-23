@@ -22,7 +22,7 @@ app.use("/",router)
 app.get("/",(req,res) =>{
     res.json({"message":"Auth Services Started"})
 })
-app.listen(port, async () => {
-    console.log("Auth Service Started", port)
-    await connectDB()
-})
+ app.listen(port,()=>{
+    console.log("Gateway Started",port)
+    connectDB()
+ })
