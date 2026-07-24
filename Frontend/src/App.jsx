@@ -1,8 +1,7 @@
 import React from 'react'
 import "./App.css"
-import { auth ,googleProvider } from '../utils/firebase'
-import { signInWithPopup } from 'firebase/auth'
-import api from '../utils/axios'
+
+
 
 
 
