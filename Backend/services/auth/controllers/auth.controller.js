@@ -6,17 +6,17 @@ import redis from "../../../shared/redis.js";
 
 export const login = async (req, res) => {
     try {
-        console.log("BODY:", req.body);
+        // console.log("BODY:", req.body);
 
         const { token } = req.body;
         
-        console.log("TOKEN:", token);
+        // console.log("TOKEN:", token);
 
         const decoded = await getAuth(app).verifyIdToken(token);
-        console.log("DECODED:", decoded);
+        // console.log("DECODED:", decoded);
 
         let user = await User.findOne({ firebaseUid: decoded.uid });
-        console.log("USER:", user);
+        // console.log("USER:", user);
 
         if (!user) {
             user = await User.create({
