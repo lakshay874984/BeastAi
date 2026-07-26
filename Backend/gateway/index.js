@@ -22,7 +22,7 @@ app.use(cors({
     credentials:true
 }))
 app.use(cookieParser())
-
+app.use("/api/agent",protect,proxy(process.env.AGENT_URL))
 app.use("/api/auth",proxy(process.env.AUTH_URL))
 app.use("/api/chat",protect,proxyWithHeader(process.env.CHAT_URL))
 app.get("/api/me",protect,getCurrentUser)
