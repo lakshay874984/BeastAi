@@ -26,7 +26,7 @@ ${state.prompt}
     const intent=intentRes.content
     if(intent=="CODE_GENERATION"){
         const prompt=`
-        You are CortexAI Coding Agent.
+        You are BeastAI Coding Agent.
 
 Generate the requested project.
 
@@ -94,9 +94,11 @@ ${state.prompt}
         const data=JSON.parse(res.content)
         await deductCredits(state.userId,"coding")
         
+        const fileNames=(data.files || []).map((file)=>`- ${file.name}`).join("\n")
+
         return {
             ...state,
-            aiResponse:"Code Generated Successfully.",
+            aiResponse:`Generated a project for your request.\n\nFiles:\n${fileNames || "- No files generated"}`,
             artifacts:[
                 {
                     id:Date.now(),
