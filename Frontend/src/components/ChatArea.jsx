@@ -8,7 +8,18 @@ import { setArtifacts, setMessages } from '../redux/messageSlice'
 
 function ChatArea() {
   const {selectedConversation}=useSelector(state=>state.conversation)
+  const { userData } = useSelector(state => state.user)
   const dispatch=useDispatch()
+  useEffect(()=>{
+  const getMesg2=async () => {
+    
+   
+      dispatch(setMessages([]))
+      dispatch(setArtifacts([]))
+  }
+
+  getMesg2()
+  },[ userData?._id,dispatch])
   useEffect(()=>{
   const getMesg=async () => {
     
@@ -24,11 +35,11 @@ console.log(data)
   }
 
   getMesg()
-  },[selectedConversation?._id])
+  },[selectedConversation?._id ])
   return (
     <div className='flex-1 flex flex-col min-w-0'>
       <Nav/>
-      <MessageList/>
+      <MessageList key={userData?._id}/>
       <ChatInput/>
     </div>
   )
