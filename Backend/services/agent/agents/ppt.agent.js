@@ -49,12 +49,12 @@ await deductCredits(state.userId,"ppt")
 const ppt=await generatePpt(data)
 const buffer=await ppt.write({
     outputType:"nodebuffer"
-})
+})  // as the ouput from generate pdf is not a buffer data so we have to convert it to tthe buffer so that we can save it to the aws s3
 
 const filename=`ppt-${Date.now()}.pptx`
 
-await uploadToS3(filename,buffer,"application/vnd.openxmlformats-officedocument.presentationml.presentation")
-const downloadUrl=await getFromS3(filename,24*60*60)
+await uploadToS3(filename,buffer,"application/vnd.openxmlformats-officedocument.presentationml.presentation") // thrid one is the apllication type for aws s3
+const downloadUrl=await getFromS3(filename,24*60*60)  // second on is the expires date for the data
 
 return {
     ...state,
