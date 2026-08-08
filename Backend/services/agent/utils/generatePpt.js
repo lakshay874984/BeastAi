@@ -14,10 +14,10 @@ const COLORS = {
 export const generatePpt = async (data) => {
     const ppt = new pptxgen()
     ppt.layout = "LAYOUT_WIDE"
-    ppt.author = "CortexAI"
+    ppt.author = "BeastAI"
     ppt.title = data.title
     ppt.subject = data.title
-    ppt.company = "CortexAI"
+    ppt.company = "BeastAI"
     ppt.theme = {
         headFontFace: "Aptos",
         bodyFontFace: "Aptos"
