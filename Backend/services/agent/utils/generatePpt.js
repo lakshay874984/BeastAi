@@ -13,7 +13,7 @@ const COLORS = {
 
 export const generatePpt = async (data) => {
     const ppt = new pptxgen()
-    ppt.layout = "LAYOUT_WIDE"
+    ppt.layout = "LAYOUT_WIDE" // THIS JUST WIDER THE SCREEN INSTEAD OF USUAL 4:3 FORMAL
     ppt.author = "BeastAI"
     ppt.title = data.title
     ppt.subject = data.title
@@ -21,12 +21,15 @@ export const generatePpt = async (data) => {
     ppt.theme = {
         headFontFace: "Aptos",
         bodyFontFace: "Aptos"
-    }
+    }   // THIS IS JUST THE METADATA OF THE SLIDE
 
 
+  // SO MY PPT SLIDE IS BREAK DOWN INTO 3 PORTION 
+  // 1ST IS THE 1ST OR THE INTRODCTUON PAGE OF THE PRESENTSARTION - addCover()
+  // 2nd is JUST THE SLIDES OR THE PAGES OF THE SLIDES   - addContentSlide()
+  // 3RD IS THE THANK YOU PAGE OF THE PRESENTATION - addThankYou()
 
-
-    addCover(ppt, data)
+    addCover(ppt, data) // 1st page - intro page
 
     data?.slides?.forEach((s, i) => {
         addContentSlide(
@@ -36,25 +39,25 @@ export const generatePpt = async (data) => {
             i + 1,
             data.slides.length
         )
-    });
+    });  ///2nd slide -  points slide  - all the points of the topic are lited there
 
-    addThankYou(ppt)
+    addThankYou(ppt) // thank you slide
 
     return ppt
 }
 
 
 const addCover = (ppt, data) => {
-    const slide = ppt.addSlide();
+    const slide = ppt.addSlide();  // This creates a new slide. SO THAT YOU CAN ADD THINGS TO THAT TO TAHT SLIDE
     slide.background = {
         color: COLORS.primary
-    }
+    }   // TO ADD THE BACKGROUND COLOUR OF THE FIRST PAGE OR INTRO PAGE
 
     slide.addShape(ppt.ShapeType.rect, {
-        x: 0,
-        y: 0,
-        w: 13.33,
-        h: 0.18,
+        x: 0,  // indicate the horizontal loaction
+        y: 0,  // indicate the vertical loaction
+        w: 13.33, // width
+        h: 0.18,  // height
         fill: {
             color: "60A5FA"
         },
@@ -63,7 +66,7 @@ const addCover = (ppt, data) => {
         }
     })
 
-    slide.addText(data.title, {
+    slide.addText(data.title, { //adds a text
         x: 0.7,
         y: 1.7,
         w: 12,
@@ -74,7 +77,7 @@ const addCover = (ppt, data) => {
         fontSize: 28,
     })
 
-    slide.addText(data.subtitle, {
+    slide.addText(data.subtitle, { // adds a text
         x: 1,
         y: 2.8,
         w: 11.5,
@@ -102,7 +105,7 @@ function addContentSlide(
     page,
     total
 ) {
-    const slide = ppt.addSlide();
+    const slide = ppt.addSlide();  // adds a slide in the ppt
 
     slide.background = {
         color: COLORS.white,
@@ -132,11 +135,11 @@ function addContentSlide(
     const visiblePoints = points.slice(0, 6);
 
     visiblePoints.forEach((point, i) => {
-        const y = 1.2 + i * 0.75;
+        const y = 1.2 + i * 0.75;  // 1.2 will b the initial positon  for point 0 and that we need to keep of space 0.75 between each point we             have taken i * 0.75 so that for 1 point gap become 0.75 from point and furheter same for point 2 and so on
 
-        slide.addShape(ppt.ShapeType.roundRect, {
+        slide.addShape(ppt.ShapeType.roundRect, { // adds a rectangle 
             x: 0.7,
-            y,
+            y, // posiion of the rectange 
             w: 12,
             h: 0.58,
             fill: {
@@ -148,7 +151,7 @@ function addContentSlide(
             radius: 0.08,
         });
 
-        slide.addShape(ppt.ShapeType.ellipse, {
+        slide.addShape(ppt.ShapeType.ellipse, { // adds a point infront od the text
             x: 0.92,
             y: y + 0.18,
             w: 0.12,
