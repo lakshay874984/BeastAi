@@ -22,6 +22,8 @@ function SideBar() {
         const getConv = async () => {
             const data = await getConversations()
             dispatch(setConversations(data))
+            
+            dispatch(setSelectedConversation(data[0] || null))
         }
         getConv()
     }, [userData?._id])
@@ -216,7 +218,11 @@ function SideBar() {
                                 </button>
                                 <button className='flex items-center justify-center w-7 h-7 rounded-[7px] border-none bg-transparent text-slate-600 cursor-pointer hover:bg-white/[0.08] hover:text-slate-400 transition-all duration-150'
                                     onClick={() => {
-                                        logOut();
+                                        dispatch(setSelectedConversation(null))
+                                        setTimeout(() => {
+                                            logOut();
+                                        }, 1000);
+                                        
                                         dispatch(setUserdata(null))
                                     }}
                                 >
