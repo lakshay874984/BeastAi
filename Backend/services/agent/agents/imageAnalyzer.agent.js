@@ -9,8 +9,8 @@ export const imageAnalyzer =async (state) => {
     try {
         const llm = await getModel("imageAnalyzer")
 
-        const imageBuffer = await fs.readFile(state.file.path)
-        const base64Image = imageBuffer.toString("base64")
+        const imageBuffer = await fs.readFile(state.file.path) // it will read the image file from the path and return a buffer of the image file, we can use this buffer to convert it to base64 format and then we can use this base64 format to send it to the llm model for analysis. 
+        const base64Image = imageBuffer.toString("base64") // we conveert it into the base64 format because the llm model accepts the image in base64 format, and we can use this base64 format to send it to the llm model for analysis.
 
         const messages = [
             new SystemMessage(
@@ -35,9 +35,9 @@ Rules:
                             text: state.prompt || "analyze the image"
                         },
                         {
-                            type:"image_url",
+                            type:"image_url", // this tells the llm model that the image is in base64 format and it is of the type of the mimetype of the uploaded image file, and we can use this base64 format to send it to the llm model for analysis. suppose the uploaded image file is of type png then the mimetype will be image/png and the llm model will know that the image is of type png and it will analyze it accordingly. and base64image contains the base64 format of the uploaded image file, and we can use this base64 format to send it to the llm model for analysis.
                             "image_url":{
-                                url:`data:${state.file.mimetype};base64,${base64Image}`
+                                url:`data:${state.file.mimetype};base64,${base64Image}` // this tells the llm model that the image is in base64 format and it is of the type of the mimetype of the uploaded image file, and we can use this base64 format to send it to the llm model for analysis. suppose the uploaded image file is of type png then the mimetype will be image/png and the llm model will know that the image is of type png and it will analyze it accordingly. and base64image contains the base64 format of the uploaded image file, and we can use this base64 format to send it to the llm model for analysis.
                             }
                         }
                     ]
