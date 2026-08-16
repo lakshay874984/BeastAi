@@ -1,12 +1,25 @@
 import React, { useEffect, useRef } from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector , useDispatch } from 'react-redux'
 import MessageBubble from './MessageBubble'
 import LoadingAnimation from './LoadingAnimation'
+import { setArtifacts, setMessages } from '../redux/messageSlice'
 
 function MessageList() {
+    const { userData } = useSelector(state => state.user)
+    const dispatch = useDispatch()
+    useEffect(()=>{
+     
+        dispatch(setMessages([]))
+       dispatch(setArtifacts([]))
+      
+       
+       
+    },[userData?._id,dispatch])
     const {selectedConversation}=useSelector(state=>state.conversation)
     const {messages,isLoading}=useSelector(state=>state.message)
+    
     const bottemRef=useRef(null)
+   
    
    useEffect(()=>{
        requestAnimationFrame(()=>{
