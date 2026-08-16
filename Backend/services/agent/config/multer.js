@@ -13,7 +13,7 @@ if (!fs.existsSync(uploadDir)) { // existsSync checks if the specified directory
 }
 
 const storage = multer.diskStorage({ // diskStorage is a method provided by multer that allows you to customize how files are stored on disk. It takes an object with two properties: destination and filename, which define where and how the uploaded files will be saved.
-    destination(req, file, cb) { // The destination function specifies the folder where the uploaded files will be stored. It takes three parameters: req (the request object), file (the file being uploaded), and cb (a callback function). cb is called with two arguments: an error (if any) and the destination path. In this case, it simply passes null for the error and the uploadDir for the destination, indicating that files should be saved in the "temp" directory.
+    destination(req, file, cb) { // The destination function specifies the folder where the uploaded files will be stored. It takes three parameters: req (the request object), file (the file being uploaded), and cb (a callback function). cb Callback function used to tell Multer what to do. cb is called with two arguments: an error (if any) and the destination path. In this case, it simply passes null for the error and the uploadDir for the destination, indicating that files should be saved in the "temp" directory.
         cb(null, uploadDir)
     }
     ,
@@ -24,10 +24,10 @@ const storage = multer.diskStorage({ // diskStorage is a method provided by mult
 
 const fileFilter = (req, file, cb) => {
      if(file.mimetype=="application/pdf" ||
-        file.mimetype.startsWith("image/")
+        file.mimetype.startsWith("image/") // we use startswith instead of === because image files can have different MIME types (e.g., image/jpeg, image/png, image/gif, etc.). By using startsWith("image/"), we ensure that any valid image MIME type is accepted, allowing for a broader range of image formats to be uploaded. This makes the file filter more flexible and user-friendly, as it can handle various image types without needing to specify each one explicitly.
       ){
           
-        cb(null,true)
+        cb(null,true) // If the file is a PDF or an image, the callback is called with null for the error and true to indicate that the file should be accepted for upload.
 
       }else{
         cb(new Error("Only PDF and Images are allowed."))
@@ -38,5 +38,5 @@ const fileFilter = (req, file, cb) => {
 export default  multer({
     storage, fileFilter, limits: {
         fileSize: 20 * 1024 * 1024
-    }
-})
+    } 
+}) // This line exports a configured instance of multer with the specified storage, file filter, and file size limit. The limits option sets a maximum file size of 20 MB (20 * 1024 * 1024 bytes). This means that any uploaded file larger than 20 MB will be rejected, helping to prevent excessive resource usage and potential denial-of-service attacks.
