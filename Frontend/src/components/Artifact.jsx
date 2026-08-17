@@ -4,8 +4,8 @@ import { useSelector } from 'react-redux'
 import { AnimatePresence, easeInOut, motion } from "motion/react"
 import Editor from '@monaco-editor/react';
 function Artifact() {
-  const [collapsed, setCollapsed] = useState(false)
-  const { artifacts } = useSelector(state => state.message)
+  const [collapsed, setCollapsed] = useState(false) //collapsed is used to close and open the artifcat section 
+  const { artifacts } = useSelector(state => state.message) // artifcat are the side secton of the char page
   const [tab, setTab] = useState("code")
   const [activeFile, setActiveFile] = useState(0)
   const [copied, setCopied] = useState(false)
