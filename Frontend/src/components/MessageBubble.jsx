@@ -83,7 +83,7 @@ function MessageBubble({ role, content, images, artifacts = [] }) {
         )}
 
 
-        <Markdown
+          <Markdown
           remarkPlugins={[remarkGfm]}
           components={{
             h1: ({ children }) => (
@@ -214,6 +214,7 @@ function MessageBubble({ role, content, images, artifacts = [] }) {
         >
           {content}
         </Markdown>
+
 
 
 
