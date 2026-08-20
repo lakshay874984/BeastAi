@@ -18,10 +18,10 @@ function BillingDrawer({ open, onClose }) {
                 name: "BeastAI",
                 description: `${data?.plan?.name} Plan`,
                 order_id: data?.order?.id,
-                handler: async (response) => { // handler is activated when the order is successful and we will get the response from razorpay for example{ razorpay_order_id, razorpay_payment_id, razorpay_signature} and we will send these values to our backend to verify the payment and then we will update the user's plan and credits in our database
+                handler: async (response) => { // handler is activated when the payment is successful and we will get the response from razorpay for example{ razorpay_order_id, razorpay_payment_id, razorpay_signature} and we will send these values to our backend to verify the payment and then we will update the user's plan and credits in our database
                     // when we print the response we will get a object like this { razorpay_order_id: 'order_9A33XWu170gUtm', razorpay_payment_id: 'pay_29QQoUBi66xm2f', razorpay_signature: '5e0c7d3e5f3e5f3e5f3e5f3e5}
                     try {
-                        const data = await verifyPayment(response)
+                        const data = await verifyPayment(response) // if the payment is successful then we will get the data from our backend and we will update the user's plan and credits in our database and we will get the data from our backend like this { message: "Payment Verified Successfully", user: { plan: "starter", credits: 500, totalCredits: 500 } } and we will update the user's plan and credits in our database and we will get the data from our backend like this { message: "Payment Verified Successfully", user: { plan: "starter", credits: 500, totalCredits: 500 } } and we will update the user's plan and credits in our database
                         console.log(data)
                     } catch (error) {
                         console.log(error)
@@ -32,8 +32,9 @@ function BillingDrawer({ open, onClose }) {
                 }
             }
 
-            const razorpay = new window.Razorpay(options)
+            const razorpay = new window.Razorpay(options) 
             razorpay.open()
+            // the flow of handleupgrade is that when the user click on the upgrade button then we will call the createOrder function and we will get the orderId from our backend and then we will open the razorpay payment gateway and then when the payment is successful then we will get the response from razorpay and then we will send these values to our backend to verify the payment and then we will update the user's plan and credits in our database
         } catch (error) {
             console.log(error)
         }
