@@ -87,12 +87,13 @@ function ChatInput() {
 
 
     console.log(selectedFile)
-    const formData = new FormData()
-    formData.append("prompt", value.trim())
+    const formData = new FormData() // formdata() is a built-in JavaScript object that allows you to easily construct a set of key/value pairs representing form fields and their values, which can then be sent using the fetch API or XMLHttpRequest. It is particularly useful for sending files and other binary data in HTTP requests, as it automatically handles the encoding and formatting required for multipart/form-data submissions.it is just like a regular object but it is specifically designed to handle form data, including files, and is commonly used in web development for submitting forms and uploading files to a server.
+
+    formData.append("prompt", value.trim()) // here promt is the key and value.trim() is the value, it will send the prompt to the backend as a formdata, and in the backend we can access it using req.body.prompt
     formData.append("conversationId", conversation?._id)
     formData.append("agent", selectedAgent.toLowerCase())
     if (selectedFile) {
-      formData.append("file", selectedFile)
+      formData.append("file", selectedFile) 
     }
 
 
@@ -207,6 +208,7 @@ function ChatInput() {
 
                   className="text-red-400"
                 /> : selectedFile.type.startsWith("image/") && <img src={URL.createObjectURL(selectedFile)} className="h-10 w-10 rounded-xl object-cover mt-3"
+                // url.createObjectURL() is a built-in JavaScript method that creates a temporary URL representing the specified file or blob object. It allows you to generate a URL that can be used to display or access the file in the browser without needing to upload it to a server first. This is particularly useful for previewing files, such as images or PDFs, before they are sent to a server. In this case, it is used to create a temporary URL for the selected image file so that it can be displayed in the chat input area as a preview.
                 />
               }
 
@@ -256,6 +258,7 @@ function ChatInput() {
           <button
             disabled={!value && isLoading}
             onClick={handleSendMessage}
+            
             className={`flex items-center justify-center w-8 h-8 rounded-lg border-none cursor-pointer transition-all duration-150 ${value.trim() ? "bg-linear-to-br from-red-700 to-red-900 hover:opacity-90 text-white" : "bg-white/[0.05] text-slate-600 cursor-not-allowed"}`}>
           <Send size={15} />
         </button>
