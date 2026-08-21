@@ -15,6 +15,7 @@ export const chatAgent = async (state) => {
          const llm = await getModel("chat")
 
     const history = await getMemory(state.conversationId)
+    console.log("reusltstadvs sjc kcjkvbkvbkjvkv",state.searchResults)
 
    const searchContext=state.searchResults?`
    Web Search Results:
@@ -71,7 +72,7 @@ Answer the user using only the above search results.
 
 
 
-    console.log(messages)
+    // console.log(messages)
 
     /*
    
