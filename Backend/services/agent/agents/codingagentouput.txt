@@ -1,0 +1,58 @@
+res AIMessage {
+  "id": "gen-1785743184-jE3Fki6T872Pd1w8aDjp",
+  "content": "```json\n{\n  \"files\": [\n    {\n      \"name\": \"sum.py\",\n      \"content\": \"num1 = float(input('Enter first number: '))\\nnum2 = float(input('Enter second number: '))\\nsum = num1 + num2\\nprint('The sum is:', sum)\"\n    }\n  ]\n}\n```",
+  "additional_kwargs": {},
+  "response_metadata": {
+    "tokenUsage": {
+      "prompt_tokens": 218,
+      "completion_tokens": 73,
+      "total_tokens": 291,
+      "cost": 0.0001312083,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001312083,
+        "upstream_inference_prompt_cost": 0.0000561132,
+        "upstream_inference_completions_cost": 0.0000750951
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "model_provider": "openrouter",
+    "model_name": "deepseek/deepseek-chat",
+    "model": "deepseek/deepseek-chat"
+  },
+  "tool_calls": [],
+  "invalid_tool_calls": [],
+  "usage_metadata": {
+    "input_tokens": 218,
+    "output_tokens": 73,
+    "total_tokens": 291,
+    "input_token_details": {
+      "cache_read": 0,
+      "audio": 0
+    },
+    "output_token_details": {
+      "reasoning": 0
+    }
+  }
+}
+data {
+  files: [
+    {
+      name: 'sum.py',
+      content: "num1 = float(input('Enter first number: '))\n" +
+        "num2 = float(input('Enter second number: '))\n" +
+        'sum = num1 + num2\n' +
+        "print('The sum is:', sum)"
+    }
+  ]

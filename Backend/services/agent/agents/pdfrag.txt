@@ -1,0 +1,336 @@
+text extracted from pdf file: LAKSHAY TYAGI
+Aspiring Data Scientist
+Gmail | GitHub | LinkedIn
+SUMMARY
+Final-year B.Tech (CSE) student with hands-on experience building Retrieval-Augmented Generation (RAG) systems, LLM-
+powered applications, and end-to-end machine learning pipelines. Skilled in Python, vector embeddings, semantic search, and
+applied ML, with a strong interest in data science and generative AI.
+PROJECTS
+Intelligent Document Question Answering System (RAG) — Python, Gemini, Ollama, Vector Embeddings, RAG, JSON,
+Scikit-learn
+● Developed an end-to-end Retrieval-Augmented Generation (RAG) system for document question answering using
+semantic search and LLMs.
+● Built a complete pipeline for converting videos into transcripts, chunking documents, generating vector embeddings,
+and retrieving contextually relevant information.
+● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.
+● Designed an embedding and retrieval workflow for efficient semantic similarity search over indexed document
+chunks.
+● Engineered a modular architecture supporting audio ingestion, transcript processing, embedding generation, and
+LLM-based response generation.
+YouTube Transcript Question Answering using LangChain — Python, LangChain, Google Gemini, FAISS
+● Built a Retrieval-Augmented Generation (RAG) application that answers user queries using YouTube transcripts.
+● Implemented transcript extraction, semantic chunking, embedding generation using Google Gemini, and FAISS vector
+indexing.
+● Integrated LangChain retrievers with prompt engineering to generate accurate, context-aware responses while
+minimizing hallucinations.
+● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.
+Car Price Prediction — Python, Scikit-learn, Matplotlib, Seaborn
+● Built an end-to-end machine learning pipeline to predict used car prices using regression algorithms.
+● Performed data preprocessing, feature engineering, and model evaluation using Scikit-learn.
+● Compared Linear Regression and Random Forest models using R² Score and Mean Absolute Error (MAE).
+● Visualized model performance and prediction results using Matplotlib and Seaborn.
+AI Interview Preparation Platform — Google Gemini API, PostgreSQL, REST APIs
+● Developed an AI-powered interview preparation platform using Google Gemini API for personalized question
+generation and automated feedback.
+● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.
+● Implemented authentication, interview history tracking, and a responsive user interface.
+TECHNICAL SKILLS
+Programming Languages: Python, SQL, JavaScript
+Data Science & Machine Learning: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn
+Generative AI: LangChain, Retrieval-Augmented Generation (RAG), Vector Embeddings, Semantic Search
+Databases: MySQL, MongoDB
+Developer Tools: Git, GitHub, Jupyter Notebook, Google Colab, VS Code
+EDUCATION
+Bachelor of Technology (B.Tech), Computer Science & Engineering (Data Science)
+ABES Institute of Technology | Final Year (Expected Graduation: 2027)
+Ghaziabad, Uttar Pradesh | Mobile: +91 8851274454
+
+-- 1 of 1 --
+
+
+docs created from pdf file: [
+  Document {
+    pageContent: 'LAKSHAY TYAGI\n' +
+      'Aspiring Data Scientist\n' +
+      'Gmail | GitHub | LinkedIn\n' +
+      'SUMMARY\n' +
+      'Final-year B.Tech (CSE) student with hands-on experience building Retrieval-Augmented Generation (RAG) systems, LLM-\n' +
+      'powered applications, and end-to-end machine learning pipelines. Skilled in Python, vector embeddings, semantic search, and\n' +
+      'applied ML, with a strong interest in data science and generative AI.\n' +
+      'PROJECTS\n' +
+      'Intelligent Document Question Answering System (RAG) — Python, Gemini, Ollama, Vector Embeddings, RAG, JSON,\n' +
+      'Scikit-learn\n' +
+      '● Developed an end-to-end Retrieval-Augmented Generation (RAG) system for document question answering using\n' +
+      'semantic search and LLMs.\n' +
+      '● Built a complete pipeline for converting videos into transcripts, chunking documents, generating vector embeddings,\n' +
+      'and retrieving contextually relevant information.\n' +
+      '● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.',
+    metadata: { loc: [Object] },
+    id: undefined
+  },
+  Document {
+    pageContent: 'and retrieving contextually relevant information.\n' +
+      '● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.\n' +
+      '● Designed an embedding and retrieval workflow for efficient semantic similarity search over indexed document\n' +
+      'chunks.\n' +
+      '● Engineered a modular architecture supporting audio ingestion, transcript processing, embedding generation, and\n' +
+      'LLM-based response generation.\n' +
+      'YouTube Transcript Question Answering using LangChain — Python, LangChain, Google Gemini, FAISS\n' +
+      '● Built a Retrieval-Augmented Generation (RAG) application that answers user queries using YouTube transcripts.\n' +
+      '● Implemented transcript extraction, semantic chunking, embedding generation using Google Gemini, and FAISS vector\n' +
+      'indexing.\n' +
+      '● Integrated LangChain retrievers with prompt engineering to generate accurate, context-aware responses while\n' +
+      'minimizing hallucinations.\n' +
+      '● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.',
+    metadata: { loc: [Object] },
+    id: undefined
+  },
+  Document {
+    pageContent: 'minimizing hallucinations.\n' +
+      '● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.\n' +
+      'Car Price Prediction — Python, Scikit-learn, Matplotlib, Seaborn\n' +
+      '● Built an end-to-end machine learning pipeline to predict used car prices using regression algorithms.\n' +
+      '● Performed data preprocessing, feature engineering, and model evaluation using Scikit-learn.\n' +
+      '● Compared Linear Regression and Random Forest models using R² Score and Mean Absolute Error (MAE).\n' +
+      '● Visualized model performance and prediction results using Matplotlib and Seaborn.\n' +
+      'AI Interview Preparation Platform — Google Gemini API, PostgreSQL, REST APIs\n' +
+      '● Developed an AI-powered interview preparation platform using Google Gemini API for personalized question\n' +
+      'generation and automated feedback.\n' +
+      '● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.\n' +
+      '● Implemented authentication, interview history tracking, and a responsive user interface.\n' +
+      'TECHNICAL SKILLS',
+    metadata: { loc: [Object] },
+    id: undefined
+  },
+  Document {
+    pageContent: '● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.\n' +
+      '● Implemented authentication, interview history tracking, and a responsive user interface.\n' +
+      'TECHNICAL SKILLS\n' +
+      'Programming Languages: Python, SQL, JavaScript\n' +
+      'Data Science & Machine Learning: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn\n' +
+      'Generative AI: LangChain, Retrieval-Augmented Generation (RAG), Vector Embeddings, Semantic Search\n' +
+      'Databases: MySQL, MongoDB\n' +
+      'Developer Tools: Git, GitHub, Jupyter Notebook, Google Colab, VS Code\n' +
+      'EDUCATION\n' +
+      'Bachelor of Technology (B.Tech), Computer Science & Engineering (Data Science)\n' +
+      'ABES Institute of Technology | Final Year (Expected Graduation: 2027)\n' +
+      'Ghaziabad, Uttar Pradesh | Mobile: +91 8851274454',
+    metadata: { loc: [Object] },
+    id: undefined
+  },
+  Document {
+    pageContent: '-- 1 of 1 --',
+    metadata: { loc: [Object] },
+    id: undefined
+  }
+]
+
+
+
+
+
+relevant docs found from pdf file: [
+  Document {
+    pageContent: '-- 1 of 1 --',
+    metadata: { loc: [Object] },
+    id: 'fc4faff3-6f02-45a2-a55b-65ce5326a555'
+  },
+  Document {
+    pageContent: 'and retrieving contextually relevant information.\n' +
+      '● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.\n' +
+      '● Designed an embedding and retrieval workflow for efficient semantic similarity search over indexed document\n' +
+      'chunks.\n' +
+      '● Engineered a modular architecture supporting audio ingestion, transcript processing, embedding generation, and\n' +
+      'LLM-based response generation.\n' +
+      'YouTube Transcript Question Answering using LangChain — Python, LangChain, Google Gemini, FAISS\n' +
+      '● Built a Retrieval-Augmented Generation (RAG) application that answers user queries using YouTube transcripts.\n' +
+      '● Implemented transcript extraction, semantic chunking, embedding generation using Google Gemini, and FAISS vector\n' +
+      'indexing.\n' +
+      '● Integrated LangChain retrievers with prompt engineering to generate accurate, context-aware responses while\n' +
+      'minimizing hallucinations.\n' +
+      '● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.',
+    metadata: { loc: [Object] },
+    id: '291803be-0ad3-4d6a-88c9-7668ace58093'
+  },
+  Document {
+    pageContent: 'minimizing hallucinations.\n' +
+      '● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.\n' +
+      'Car Price Prediction — Python, Scikit-learn, Matplotlib, Seaborn\n' +
+      '● Built an end-to-end machine learning pipeline to predict used car prices using regression algorithms.\n' +
+      '● Performed data preprocessing, feature engineering, and model evaluation using Scikit-learn.\n' +
+      '● Compared Linear Regression and Random Forest models using R² Score and Mean Absolute Error (MAE).\n' +
+      '● Visualized model performance and prediction results using Matplotlib and Seaborn.\n' +
+      'AI Interview Preparation Platform — Google Gemini API, PostgreSQL, REST APIs\n' +
+      '● Developed an AI-powered interview preparation platform using Google Gemini API for personalized question\n' +
+      'generation and automated feedback.\n' +
+      '● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.\n' +
+      '● Implemented authentication, interview history tracking, and a responsive user interface.\n' +
+      'TECHNICAL SKILLS',
+    metadata: { loc: [Object] },
+    id: '8a3d822e-921f-49b1-b544-42b6292655ca'
+  },
+  Document {
+    pageContent: 'LAKSHAY TYAGI\n' +
+      'Aspiring Data Scientist\n' +
+      'Gmail | GitHub | LinkedIn\n' +
+      'SUMMARY\n' +
+      'Final-year B.Tech (CSE) student with hands-on experience building Retrieval-Augmented Generation (RAG) systems, LLM-\n' +
+      'powered applications, and end-to-end machine learning pipelines. Skilled in Python, vector embeddings, semantic search, and\n' +
+      'applied ML, with a strong interest in data science and generative AI.\n' +
+      'PROJECTS\n' +
+      'Intelligent Document Question Answering System (RAG) — Python, Gemini, Ollama, Vector Embeddings, RAG, JSON,\n' +
+      'Scikit-learn\n' +
+      '● Developed an end-to-end Retrieval-Augmented Generation (RAG) system for document question answering using\n' +
+      'semantic search and LLMs.\n' +
+      '● Built a complete pipeline for converting videos into transcripts, chunking documents, generating vector embeddings,\n' +
+      'and retrieving contextually relevant information.\n' +
+      '● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.',
+    metadata: { loc: [Object] },
+    id: '33da5cb1-e40c-4e35-9293-c5c757f5ac18'
+  },
+  Document {
+    pageContent: '● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.\n' +
+      '● Implemented authentication, interview history tracking, and a responsive user interface.\n' +
+      'TECHNICAL SKILLS\n' +
+      'Programming Languages: Python, SQL, JavaScript\n' +
+      'Data Science & Machine Learning: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn\n' +
+      'Generative AI: LangChain, Retrieval-Augmented Generation (RAG), Vector Embeddings, Semantic Search\n' +
+      'Databases: MySQL, MongoDB\n' +
+      'Developer Tools: Git, GitHub, Jupyter Notebook, Google Colab, VS Code\n' +
+      'EDUCATION\n' +
+      'Bachelor of Technology (B.Tech), Computer Science & Engineering (Data Science)\n' +
+      'ABES Institute of Technology | Final Year (Expected Graduation: 2027)\n' +
+      'Ghaziabad, Uttar Pradesh | Mobile: +91 8851274454',
+    metadata: { loc: [Object] },
+    id: '5e92bcfa-d6ab-49ed-987b-c206f8f07211'
+  }
+]
+context for LLM: -- 1 of 1 --
+
+and retrieving contextually relevant information.
+● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.
+● Designed an embedding and retrieval workflow for efficient semantic similarity search over indexed document
+chunks.
+● Engineered a modular architecture supporting audio ingestion, transcript processing, embedding generation, and
+LLM-based response generation.
+YouTube Transcript Question Answering using LangChain — Python, LangChain, Google Gemini, FAISS
+● Built a Retrieval-Augmented Generation (RAG) application that answers user queries using YouTube transcripts.
+● Implemented transcript extraction, semantic chunking, embedding generation using Google Gemini, and FAISS vector
+indexing.
+● Integrated LangChain retrievers with prompt engineering to generate accurate, context-aware responses while
+minimizing hallucinations.
+● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.
+
+minimizing hallucinations.
+● Designed a modular RAG pipeline consisting of indexing, retrieval, augmentation, and generation.
+Car Price Prediction — Python, Scikit-learn, Matplotlib, Seaborn
+● Built an end-to-end machine learning pipeline to predict used car prices using regression algorithms.
+● Performed data preprocessing, feature engineering, and model evaluation using Scikit-learn.
+● Compared Linear Regression and Random Forest models using R² Score and Mean Absolute Error (MAE).
+● Visualized model performance and prediction results using Matplotlib and Seaborn.
+AI Interview Preparation Platform — Google Gemini API, PostgreSQL, REST APIs
+● Developed an AI-powered interview preparation platform using Google Gemini API for personalized question
+generation and automated feedback.
+● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.
+● Implemented authentication, interview history tracking, and a responsive user interface.
+TECHNICAL SKILLS
+
+LAKSHAY TYAGI
+Aspiring Data Scientist
+Gmail | GitHub | LinkedIn
+SUMMARY
+Final-year B.Tech (CSE) student with hands-on experience building Retrieval-Augmented Generation (RAG) systems, LLM-
+powered applications, and end-to-end machine learning pipelines. Skilled in Python, vector embeddings, semantic search, and
+applied ML, with a strong interest in data science and generative AI.
+PROJECTS
+Intelligent Document Question Answering System (RAG) — Python, Gemini, Ollama, Vector Embeddings, RAG, JSON,
+Scikit-learn
+● Developed an end-to-end Retrieval-Augmented Generation (RAG) system for document question answering using
+semantic search and LLMs.
+● Built a complete pipeline for converting videos into transcripts, chunking documents, generating vector embeddings,
+and retrieving contextually relevant information.
+● Implemented support for both Google Gemini API and local Ollama models, enabling cloud and offline inference.
+
+● Designed scalable REST APIs and integrated PostgreSQL for efficient data management.
+● Implemented authentication, interview history tracking, and a responsive user interface.
+TECHNICAL SKILLS
+Programming Languages: Python, SQL, JavaScript
+Data Science & Machine Learning: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn
+Generative AI: LangChain, Retrieval-Augmented Generation (RAG), Vector Embeddings, Semantic Search
+Databases: MySQL, MongoDB
+Developer Tools: Git, GitHub, Jupyter Notebook, Google Colab, VS Code
+EDUCATION
+Bachelor of Technology (B.Tech), Computer Science & Engineering (Data Science)
+ABES Institute of Technology | Final Year (Expected Graduation: 2027)
+Ghaziabad, Uttar Pradesh | Mobile: +91 8851274454
+AIMessage {
+  "content": "**Summary of the PDF**\n\n| Section | Key Points |\n|---------|------------|\n| **Profile** | Lakshay Tyagi – Final‑year B.Tech (CSE) student, aspiring data scientist. Contact: Gmail, GitHub, LinkedIn, phone +91 8851274454. |\n| **Career Summary** | Hands‑on experience building Retrieval‑Augmented Generation (RAG) systems, LLM‑powered applications, and end‑to‑end ML pipelines. Proficient in Python, vector embeddings, semantic search, and applied ML. |\n| **Projects** | 1. **Intelligent Document Question Answering System (RAG)** – Python, Gemini, Ollama, vector embeddings, JSON, Scikit‑learn. Developed full pipeline: video‑to‑transcript, document chunking, embedding generation, semantic retrieval, LLM response. Supports Google Gemini API (cloud) & local Ollama (offline). <br>2. **YouTube Transcript QA using LangChain** – Implemented RAG with Google Gemini embeddings, FAISS indexing, LangChain retrievers, prompt engineering to reduce hallucinations. <br>3. **Car Price Prediction** – Python, Scikit‑learn, Matplotlib, Seaborn. End‑to‑end regression pipeline; compared Linear Regression & Random Forest using R² & MAE. <br>4. **AI Interview Preparation Platform** – Google Gemini API, PostgreSQL, REST APIs. Built personalized question generation, feedback, authentication, interview history, responsive UI. |\n| **Technical Skills** | **Programming:** Python, SQL, JavaScript <br>**Data Science/ML:** Pandas, NumPy, Scikit‑learn, TensorFlow, PyTorch, Matplotlib, Seaborn <br>**Generative AI:** LangChain, Retrieval‑Augmented Generation, Vector Embeddings, Semantic Search <br>**Databases:** MySQL, MongoDB, PostgreSQL <br>**Tools:** Git, GitHub, Jupyter Notebook, Google Colab, VS Code |\n| **Education** | B.Tech in Computer Science & Engineering (Data Science), ABES Institute of Technology, Ghaziabad, Uttar Pradesh. Expected graduation 2027. |\n\n**Overall Impression**  \nLakshay Tyagi showcases a strong foundation in both traditional machine‑learning workflows and modern generative‑AI techniques, especially Retrieval‑Augmented Generation. The resume highlights practical implementations (RAG pipelines, regression models, AI interview platform) and a versatile tech stack spanning data processing, model development, vector search, and full‑stack integration. This positions him well for roles in data science, ML engineering, or AI product development.",
+  "additional_kwargs": {},
+  "response_metadata": {
+    "tokenUsage": {
+      "completionTokens": 629,
+      "promptTokens": 886,
+      "totalTokens": 1515
+    },
+    "finish_reason": "stop",
+    "id": "chatcmpl-146c728c-3eaa-4755-aca3-2126cd2ce504",
+    "object": "chat.completion",
+    "created": 1786520045,
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.284084006,
+      "prompt_tokens": 886,
+      "prompt_time": 0.040576823,
+      "completion_tokens": 629,
+      "completion_time": 1.321332428,
+      "total_tokens": 1515,
+      "total_time": 1.361909251,
+      "completion_tokens_details": {
+        "reasoning_tokens": 65
+      }
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_5082008e34",
+    "x_groq": {
+      "id": "req_01kzte903peqmbarr21t9zjkqy",
+      "seed": 875397267
+    },
+    "service_tier": "on_demand",
+    "model_provider": "groq"
+  },
+  "tool_calls": [],
+  "invalid_tool_calls": [],
+  "usage_metadata": {
+    "input_tokens": 886,
+    "output_tokens": 629,
+    "total_tokens": 1515
+  }
+}
+result {
+  prompt: 'summarize this pdf',
+  aiResponse: '**Summary of the PDF**\n' +
+    '\n' +
+    '| Section | Key Points |\n' +
+    '|---------|------------|\n' +
+    '| **Profile** | Lakshay Tyagi – Final‑year B.Tech (CSE) student, aspiring data scientist. Contact: Gmail, GitHub, LinkedIn, phone +91 8851274454. |\n' +
+    '| **Career Summary** | Hands‑on experience building Retrieval‑Augmented Generation (RAG) systems, LLM‑powered applications, and end‑to‑end ML pipelines. Proficient in Python, vector embeddings, semantic search, and applied ML. |\n' +
+    '| **Projects** | 1. **Intelligent Document Question Answering System (RAG)** – Python, Gemini, Ollama, vector embeddings, JSON, Scikit‑learn. Developed full pipeline: video‑to‑transcript, document chunking, embedding generation, semantic retrieval, LLM response. Supports Google Gemini API (cloud) & local Ollama (offline). <br>2. **YouTube Transcript QA using LangChain** – Implemented RAG with Google Gemini embeddings, FAISS indexing, LangChain retrievers, prompt engineering to reduce hallucinations. <br>3. **Car Price Prediction** – Python, Scikit‑learn, Matplotlib, Seaborn. End‑to‑end regression pipeline; compared Linear Regression & Random Forest using R² & MAE. <br>4. **AI Interview Preparation Platform** – Google Gemini API, PostgreSQL, REST APIs. Built personalized question generation, feedback, authentication, interview history, responsive UI. |\n' +
+    '| **Technical Skills** | **Programming:** Python, SQL, JavaScript <br>**Data Science/ML:** Pandas, NumPy, Scikit‑learn, TensorFlow, PyTorch, Matplotlib, Seaborn <br>**Generative AI:** LangChain, Retrieval‑Augmented Generation, Vector Embeddings, Semantic Search <br>**Databases:** MySQL, MongoDB, PostgreSQL <br>**Tools:** Git, GitHub, Jupyter Notebook, Google Colab, VS Code |\n' +
+    '| **Education** | B.Tech in Computer Science & Engineering (Data Science), ABES Institute of Technology, Ghaziabad, Uttar Pradesh. Expected graduation 2027. |\n' +
+    '\n' +
+    '**Overall Impression**  \n' +
+    'Lakshay Tyagi showcases a strong foundation in both traditional machine‑learning workflows and modern generative‑AI techniques, especially Retrieval‑Augmented Generation. The resume highlights practical implementations (RAG pipelines, regression models, AI interview platform) and a versatile tech stack spanning data processing, model development, vector search, and full‑stack integration. This positions him well for roles in data science, ML engineering, or AI product development.',
+  agent: 'pdfRag',
+  conversationId: '6a720c15a02d8bc6f2d4cd3d',
+  userId: '6a7205d21f4b0ab3239d1ba9',
+  file: {
+    fieldname: 'file',
+    originalname: 'LakshayTyagi.pdf',
+    encoding: '7bit',
+    mimetype: 'application/pdf',
+    path: 'D:\\BeastAi\\backend\\services\\agent\\temp\\1786520036966-LakshayTyagi.pdf',
+    destination: 'D:\\BeastAi\\backend\\services\\agent\\temp',
+    filename: '1786520036966-LakshayTyagi.pdf',
+    size: 81644
+  }
+}

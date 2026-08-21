@@ -1,0 +1,220 @@
+{
+  query: 'Most Beatiful Girls',
+  follow_up_questions: null,
+  answer: null,
+  images: [
+    'https://hips.hearstapps.com/esquireuk.cdnds.net/17/06/1024x1024/square-1486567824-marilyn-monroe.jpg',
+    'https://s.yimg.com/lo/mysterio/api/9895a9d4395cd4d7f5f9ab395b2f97036dffe22d80334d6c5218befeaed7170b/lightyear_networkapi/resizefill_w1080_h1440%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobe_458%2F3f5edcb56d682d52012598d01d683f1f',
+    'https://people.com/thmb/RUe6OknftZ46LQb0AE1M6PHQVnQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(783x0:785x2)/jare-1-0304658f2d784eaf9b76a44b1ad36609.jpg',
+    'https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/canvas/2022/03/15/7100fad9-be7b-4817-96b6-75a54659a52c_c7ee0fec.jpg?itok=KCA5rlVz&v=1647331883',
+    'http://elleuk.cdnds.net/17/14/2048x3072/gallery-1491306239-rexfeatures-8436588br.jpg'
+  ],
+  results: [
+    {
+      url: 'https://www.facebook.com/MonicaBellucci/posts/top-55-most-beautiful-women-in-the-world-/1182751093217714',
+      title: 'Top 55 Most Beautiful Women in The World - Facebook',
+      content: "1️⃣ Ana de Armas 2️⃣ Margot Robbie 3️⃣ Scarlett Johansson 4️⃣ Gal Gadot 5️⃣ Zendaya 6️⃣ Salma Hayek 7️⃣ Alexandra Daddario 8️⃣ Lupita Nyong'o 9️⃣ Deepika Padukone",
+      score: 0.53473455,
+      raw_content: null,
+      images: [],
+      id: '289c0b-00'
+    },
+    {
+      url: 'https://www.pinterest.com/ideas/top-10-most-beautiful-girl-in-the-world/908606786121',
+      title: 'Top 10 Most Beautiful Girl in the World - Pinterest',
+      content: 'Find and save ideas about top 10 most beautiful girl in the world on Pinterest. Girls beautiful eyes, Most beautiful faces',
+      score: 0.49128565,
+      raw_content: null,
+      images: [],
+      id: '1f1b9b-01'
+    },
+    {
+      url: 'https://www.imdb.com/list/ls054263880',
+      title: 'The 50 Most Beautiful Women In The World - IMDb',
+      content: 'The 50 Most Beautiful Women In The World · 1. Nina Dobrev · 2. Megan Fox · 3. Mila Kunis · 4. Elisha Cuthbert · 5. Emma Stone · 6. Lindsay Lohan · 7. Amanda',
+      score: 0.44521654,
+      raw_content: null,
+      images: [],
+      id: '14d39a-02'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=7V1qrAGsDBI',
+      title: 'Top 10 Most Beautiful Women in the World 2026 - YouTube',
+      content: 'appears humble, funny, and relatable. That combination of beauty and charisma\n' +
+        'easily earns her a place on this list. Number nine. Deepika Padukone.\n' +
+        "Deepika Padukone is more than just a Bollywood superstar. She's a global\n" +
+        'beauty icon. Her stunning eyes, graceful movements, and powerful presence make\n' +
+        "her impossible to ignore. Whether she's walking the red carpet or\n" +
+        'starring in major films, Deepika always carries herself with elegance and\n' +
+        'confidence. Millions admire not only her beauty, but [...] generation. The Blackpink member is famous for her\n' +
+        'luxurious aura, confident attitude, and powerful stage presence.\n' +
+        'She can look cute, elegant, [music] and intimidating all at the same time.\n' +
+        'That unique charm is exactly why millions of fans are obsessed with her.\n' +
+        'From luxury fashion brands to viral performances, Jennie continues to\n' +
+        'dominate global pop culture. And finally,\n' +
+        'number one, Ariana Grande.\n' +
+        'Ariana Grande takes the top spot as one of the most beautiful women in the world [...] And trust me, the number one spot might surprise you.\n' +
+        "Let's begin. Number 10.\n" +
+        'Margot Robbie. From Hollywood blockbusters [music] to\n' +
+        'global fashion events, Margot Robbie continues to be one of the most admired\n' +
+        'women on Earth. Her beauty [music] feels effortless.\n' +
+        'The bright smile, elegant appearance, and natural charm make her instantly\n' +
+        '[music] recognizable anywhere in the world.\n' +
+        'But what fans love most is her personality.\n' +
+        "Despite becoming one of [music] Hollywood's biggest stars, she still",
+      score: 0.43813655,
+      raw_content: null,
+      images: [Array],
+      id: 'effcba-03'
+    },
+    {
+      url: 'https://www.esquire.com/uk/life/sex-relationships/g9904/the-25-most-beautiful-women-of-all-time',
+      title: 'The Most Beautiful Women Of All Time - Esquire',
+      content: "The Most Beautiful Women Of All Time · Lupita Nyong'o · Blake Lively · Zoë Kravitz · Emma Watson · Brigitte Bardot · Audrey Hepburn · Natalie Portman · Freida",
+      score: 0.43453383,
+      raw_content: null,
+      images: [],
+      id: '3e80cc-04'
+    }
+  ],
+  response_time: 2.48,
+  request_id: 'a3988574-a6e1-4a90-adeb-d8dce2163ab4'
+}
+reusltstadvs sjc kcjkvbkvbkjvkv {
+  query: 'Most Beatiful Girls',
+  follow_up_questions: null,
+  answer: null,
+  images: [
+    'https://hips.hearstapps.com/esquireuk.cdnds.net/17/06/1024x1024/square-1486567824-marilyn-monroe.jpg',
+    'https://s.yimg.com/lo/mysterio/api/9895a9d4395cd4d7f5f9ab395b2f97036dffe22d80334d6c5218befeaed7170b/lightyear_networkapi/resizefill_w1080_h1440%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobe_458%2F3f5edcb56d682d52012598d01d683f1f',
+    'https://people.com/thmb/RUe6OknftZ46LQb0AE1M6PHQVnQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(783x0:785x2)/jare-1-0304658f2d784eaf9b76a44b1ad36609.jpg',
+    'https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/canvas/2022/03/15/7100fad9-be7b-4817-96b6-75a54659a52c_c7ee0fec.jpg?itok=KCA5rlVz&v=1647331883',
+    'http://elleuk.cdnds.net/17/14/2048x3072/gallery-1491306239-rexfeatures-8436588br.jpg'
+  ],
+  results: [
+    {
+      url: 'https://www.facebook.com/MonicaBellucci/posts/top-55-most-beautiful-women-in-the-world-/1182751093217714',
+      title: 'Top 55 Most Beautiful Women in The World - Facebook',
+      content: "1️⃣ Ana de Armas 2️⃣ Margot Robbie 3️⃣ Scarlett Johansson 4️⃣ Gal Gadot 5️⃣ Zendaya 6️⃣ Salma Hayek 7️⃣ Alexandra Daddario 8️⃣ Lupita Nyong'o 9️⃣ Deepika Padukone",
+      score: 0.53473455,
+      raw_content: null,
+      images: [],
+      id: '289c0b-00'
+    },
+    {
+      url: 'https://www.pinterest.com/ideas/top-10-most-beautiful-girl-in-the-world/908606786121',
+      title: 'Top 10 Most Beautiful Girl in the World - Pinterest',
+      content: 'Find and save ideas about top 10 most beautiful girl in the world on Pinterest. Girls beautiful eyes, Most beautiful faces',
+      score: 0.49128565,
+      raw_content: null,
+      images: [],
+      id: '1f1b9b-01'
+    },
+    {
+      url: 'https://www.imdb.com/list/ls054263880',
+      title: 'The 50 Most Beautiful Women In The World - IMDb',
+      content: 'The 50 Most Beautiful Women In The World · 1. Nina Dobrev · 2. Megan Fox · 3. Mila Kunis · 4. Elisha Cuthbert · 5. Emma Stone · 6. Lindsay Lohan · 7. Amanda',
+      score: 0.44521654,
+      raw_content: null,
+      images: [],
+      id: '14d39a-02'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=7V1qrAGsDBI',
+      title: 'Top 10 Most Beautiful Women in the World 2026 - YouTube',
+      content: 'appears humble, funny, and relatable. That combination of beauty and charisma\n' +
+        'easily earns her a place on this list. Number nine. Deepika Padukone.\n' +
+        "Deepika Padukone is more than just a Bollywood superstar. She's a global\n" +
+        'beauty icon. Her stunning eyes, graceful movements, and powerful presence make\n' +
+        "her impossible to ignore. Whether she's walking the red carpet or\n" +
+        'starring in major films, Deepika always carries herself with elegance and\n' +
+        'confidence. Millions admire not only her beauty, but [...] generation. The Blackpink member is famous for her\n' +
+        'luxurious aura, confident attitude, and powerful stage presence.\n' +
+        'She can look cute, elegant, [music] and intimidating all at the same time.\n' +
+        'That unique charm is exactly why millions of fans are obsessed with her.\n' +
+        'From luxury fashion brands to viral performances, Jennie continues to\n' +
+        'dominate global pop culture. And finally,\n' +
+        'number one, Ariana Grande.\n' +
+        'Ariana Grande takes the top spot as one of the most beautiful women in the world [...] And trust me, the number one spot might surprise you.\n' +
+        "Let's begin. Number 10.\n" +
+        'Margot Robbie. From Hollywood blockbusters [music] to\n' +
+        'global fashion events, Margot Robbie continues to be one of the most admired\n' +
+        'women on Earth. Her beauty [music] feels effortless.\n' +
+        'The bright smile, elegant appearance, and natural charm make her instantly\n' +
+        '[music] recognizable anywhere in the world.\n' +
+        'But what fans love most is her personality.\n' +
+        "Despite becoming one of [music] Hollywood's biggest stars, she still",
+      score: 0.43813655,
+      raw_content: null,
+      images: [Array],
+      id: 'effcba-03'
+    },
+    {
+      url: 'https://www.esquire.com/uk/life/sex-relationships/g9904/the-25-most-beautiful-women-of-all-time',
+      title: 'The Most Beautiful Women Of All Time - Esquire',
+      content: "The Most Beautiful Women Of All Time · Lupita Nyong'o · Blake Lively · Zoë Kravitz · Emma Watson · Brigitte Bardot · Audrey Hepburn · Natalie Portman · Freida",
+      score: 0.43453383,
+      raw_content: null,
+      images: [],
+      id: '3e80cc-04'
+    }
+  ],
+  response_time: 2.48,
+  request_id: 'a3988574-a6e1-4a90-adeb-d8dce2163ab4'
+}
+result {
+  prompt: 'Most Beatiful Girls',
+  aiResponse: '# Most Beautiful Women (Recent Popular Lists)\n' +
+    '\n' +
+    'Below are some of the names that repeatedly appear in the top‑beauty rankings found in the web search results.\n' +
+    '\n' +
+    '## Frequently Cited Names\n' +
+    '\n' +
+    '- **Ana de Armas** – listed first in a Facebook “Top 55 Most Beautiful Women” post.  \n' +
+    '- **Margot Robbie** – appears in multiple lists, including a YouTube “Top 10 Most Beautiful Women in the World 2026”.  \n' +
+    '- **Scarlett Johansson** – featured in the Facebook ranking.  \n' +
+    '- **Gal Gadot** – also in the Facebook list.  \n' +
+    '- **Zendaya** – appears among the top picks on Facebook.  \n' +
+    '- **Salma Hayek** – included in the Facebook compilation.  \n' +
+    '- **Alexandra Daddario** – another Facebook entry.  \n' +
+    '- **Lupita Nyong’o** – shows up in both the Facebook list and Esquire’s “The 25 Most Beautiful Women of All Time”.  \n' +
+    '- **Deepika Padukone** – highlighted in the YouTube video and often cited in Indian media.  \n' +
+    '- **Ariana Grande** – ranked #1 in the YouTube “Top 10 Most Beautiful Women in the World 2026”.  \n' +
+    '\n' +
+    '## Additional Notable Names from Other Sources\n' +
+    '\n' +
+    '- **Nina Dobrev** – #1 in IMDb’s “The 50 Most Beautiful Women In The World”.  \n' +
+    '- **Megan Fox** – #2 on the same IMDb list.  \n' +
+    '- **Mila Kunis** – #3 on IMDb.  \n' +
+    '- **Emma Stone** – #5 on IMDb.  \n' +
+    '- **Lindsay Lohan** – #6 on IMDb.  \n' +
+    '- **Blake Lively**, **Zoë Kravitz**, **Emma Watson**, **Brigitte Bardot**, **Audrey Hepburn**, **Natalie Portman**, **Freida Pinto** – all mentioned in Esquire’s “The Most Beautiful Women Of All Time”.\n' +
+    '\n' +
+    'These names reflect the most commonly referenced “beautiful girls/women” across the recent social‑media posts, video countdowns, and magazine articles captured in the search results.',
+  agent: 'search',
+  conversationId: '6a86a395026a4762398c4265',
+  searchResults: {
+    query: 'Most Beatiful Girls',
+    follow_up_questions: null,
+    answer: null,
+    images: [
+      'https://hips.hearstapps.com/esquireuk.cdnds.net/17/06/1024x1024/square-1486567824-marilyn-monroe.jpg',
+      'https://s.yimg.com/lo/mysterio/api/9895a9d4395cd4d7f5f9ab395b2f97036dffe22d80334d6c5218befeaed7170b/lightyear_networkapi/resizefill_w1080_h1440%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobe_458%2F3f5edcb56d682d52012598d01d683f1f',
+      'https://people.com/thmb/RUe6OknftZ46LQb0AE1M6PHQVnQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(783x0:785x2)/jare-1-0304658f2d784eaf9b76a44b1ad36609.jpg',
+      'https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/canvas/2022/03/15/7100fad9-be7b-4817-96b6-75a54659a52c_c7ee0fec.jpg?itok=KCA5rlVz&v=1647331883',
+      'http://elleuk.cdnds.net/17/14/2048x3072/gallery-1491306239-rexfeatures-8436588br.jpg'
+    ],
+    results: [ [Object], [Object], [Object], [Object], [Object] ],
+    response_time: 2.48,
+    request_id: 'a3988574-a6e1-4a90-adeb-d8dce2163ab4'
+  },
+  images: [
+    'https://hips.hearstapps.com/esquireuk.cdnds.net/17/06/1024x1024/square-1486567824-marilyn-monroe.jpg',
+    'https://s.yimg.com/lo/mysterio/api/9895a9d4395cd4d7f5f9ab395b2f97036dffe22d80334d6c5218befeaed7170b/lightyear_networkapi/resizefill_w1080_h1440%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobe_458%2F3f5edcb56d682d52012598d01d683f1f',
+    'https://people.com/thmb/RUe6OknftZ46LQb0AE1M6PHQVnQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(783x0:785x2)/jare-1-0304658f2d784eaf9b76a44b1ad36609.jpg',
+    'https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/canvas/2022/03/15/7100fad9-be7b-4817-96b6-75a54659a52c_c7ee0fec.jpg?itok=KCA5rlVz&v=1647331883',
+    'http://elleuk.cdnds.net/17/14/2048x3072/gallery-1491306239-rexfeatures-8436588br.jpg'
+  ],
+  userId: '6a7205d21f4b0ab3239d1ba9',
+  file: undefined
+}
