@@ -1,6 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
-import connectDb from "./config/db.js"
+import {connectDB} from "./config/db.js"
 import router from "./routes/auth.route.js"
 dotenv.config()
 
@@ -15,5 +15,5 @@ app.get("/",(req,res)=>{
 
 app.listen(port,()=>{
     console.log(`auth started at ${port}`)
-    connectDb()
+    connectDB()
 })
