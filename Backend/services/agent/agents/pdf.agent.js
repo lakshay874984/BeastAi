@@ -43,6 +43,26 @@ ${state.prompt}
 
         const res=await llm.invoke(prompt)
         const data=JSON.parse(res.content)
+//         {
+//   title: "JavaScript Guide",
+//   subtitle: "Learn JavaScript Basics",
+//   sections: [
+//     {
+//       heading: "Variables",
+//       points: [
+//         "let is used for variables",
+//         "const is used for constants"
+//       ]
+//     },
+//     {
+//       heading: "Functions",
+//       points: [
+//         "Functions are reusable blocks of code",
+//         "Functions can accept parameters"
+//       ]
+//     }
+//   ]
+// }
        await deductCredits(state.userId,"pdf")
         
         const pdfBuffer=await generatePdf(data)
