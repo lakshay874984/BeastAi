@@ -1,3 +1,4 @@
+// this file is responsible for configuring the multer middleware, which is used to handle file uploads in a Node.js/Express application. It sets up the storage location, file naming convention, and file type filtering for uploaded files.which is used in the pdf agent to upload the pdf file and then analyze it using langchain library and generate the answer for the user prompt. It also deletes the uploaded pdf file from the server after processing it, to free up space and avoid cluttering the server with unnecessary files.
 import fs from "fs" // fs is a built-in Node.js module that provides an API for interacting with the file system, allowing you to read, write, and manipulate files and directories.
 import path from "path" // path is a built-in Node.js module that provides utilities for working with file and directory paths, making it easier to handle file paths across different operating systems.
 import multer from "multer" // multer is a Node.js/Express middleware used to handle file uploads, especially when a client sends files using multipart/form-data.
@@ -14,7 +15,7 @@ if (!fs.existsSync(uploadDir)) { // existsSync checks if the specified directory
 
 const storage = multer.diskStorage({ // diskStorage is a method provided by multer that allows you to customize how files are stored on disk. It takes an object with two properties: destination and filename, which define where and how the uploaded files will be saved.
     destination(req, file, cb) { // The destination function specifies the folder where the uploaded files will be stored. It takes three parameters: req (the request object), file (the file being uploaded), and cb (a callback function). cb Callback function used to tell Multer what to do. cb is called with two arguments: an error (if any) and the destination path. In this case, it simply passes null for the error and the uploadDir for the destination, indicating that files should be saved in the "temp" directory.
-        cb(null, uploadDir)
+        cb(null, uploadDir)// This line calls the callback function cb with null as the first argument (indicating no error) and uploadDir as the second argument, specifying that the uploaded files should be stored in the "temp" directory.
     }
     ,
     filename(req, file, cb) { // The filename function specifies the name of the file that will be saved on disk. It also takes three parameters: req, file, and cb. In this case, it generates a unique filename by concatenating the current timestamp (Date.now()) with the original name of the uploaded file (file.originalname). This helps prevent filename collisions when multiple files with the same name are uploaded. The cb function is called with null for the error and the generated filename.

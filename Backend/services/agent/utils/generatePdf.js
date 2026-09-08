@@ -5,7 +5,7 @@ return new Promise((resolve,reject)=>{
         size:"A4",
         margin:50,
         info:{
-            Author:"CortexAI",
+            Author:"BEASTAI",
             Title:data.title,
             Creator:"BeastAI"
         }

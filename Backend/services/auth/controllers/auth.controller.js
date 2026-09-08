@@ -42,14 +42,16 @@ export const login = async (req, res) => {
 
         res.cookie("session", sessionId, {
             httpOnly: true,
-            secure: true,
-            sameSite: "strict",
+            secure: false,
+            sameSite: "lax",
             maxAge: 7 * 24 * 60 * 60 * 1000
         })
 
         return res.status(200).json(user)
+        console.log("user logged in", user)
 
     } catch (error) {
+        console.log("login error", error)
         return res.status(500).json({ message: `login error ${error}` })
     }
 }
