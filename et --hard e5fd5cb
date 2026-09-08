@@ -1,0 +1,30 @@
+[33me5fd5cb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mTesting[m[33m)[m HEAD@{0}: checkout: moving from test2 to master
+[33ma0f99c4[m[33m ([m[1;32mtest2[m[33m)[m HEAD@{1}: reset: moving to a0f99c430874ff13b96653fe2d1fa23942dc4d8c
+[33m1743aad[m[33m ([m[1;31morigin/test2[m[33m)[m HEAD@{2}: commit: feat: enhance .gitignore, add Dockerfile, and implement Artifact and LoadingAnimation components
+[33m2ed7c5a[m HEAD@{3}: pull --tags origin test2: Merge made by the 'ort' strategy.
+[33me87b912[m HEAD@{4}: commit: feat: update Nav and SideBar components with red color scheme and adjust Home welcome message
+[33md767e74[m HEAD@{5}: commit: refactor: simplify database connection logic and improve error handling
+[33m6ed91c7[m HEAD@{6}: commit: feat: add Redis connection setup for improved caching and performance
+[33m014a1ab[m HEAD@{7}: commit: feat: update package dependencies and add MessageList component for improved message handling
+[33mccf6dcf[m HEAD@{8}: commit: feat: add billing service and chat components
+[33m347d5e9[m HEAD@{9}: commit: feat: refactor user controller and auth middleware, update AI agent names, and enhance user model with plan and credits
+[33me5fd5cb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mTesting[m[33m)[m HEAD@{10}: checkout: moving from Testing to test2
+[33me5fd5cb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mTesting[m[33m)[m HEAD@{11}: checkout: moving from master to Testing
+[33me5fd5cb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mTesting[m[33m)[m HEAD@{12}: commit: feat: update authentication controller to enhance user session management and add payment update functionality
+[33mddb02b3[m HEAD@{13}: commit: feat: add sendMessage function and messageSlice for message handling in Redux
+[33md1d684a[m HEAD@{14}: commit: feat: implement Nav and SideBar components for conversation management and user interface
+[33mc00e803[m HEAD@{15}: commit: feat: add getConversations function and update Redux store with conversation and message reducers
+[33mf204e82[m HEAD@{16}: commit: feat: add createOrder and logOut functions for order management and user logout
+[33ma50dff8[m HEAD@{17}: commit: feat: add conversation management features with createConversation, getCurrentUser, getMessages, and conversationSlice
+[33mc3557d1[m HEAD@{18}: commit: feat(agent): update dependencies for Google GenAI and Groq, add Axios
+[33ma277559[m HEAD@{19}: commit: refactor(graph): enhance comments and structure for clarity in workflow definition
+[33mc7e8a00[m HEAD@{20}: commit: feat: Implement agent service with memory, file upload, S3 integration, and PDF/PPT generation
+[33mbe37dfe[m HEAD@{21}: commit: Add agent service with package.json and integrate chat routes in chat service
+[33m0f5d1c4[m HEAD@{22}: commit: feat(proxy): add proxyWithHeader utility to include user ID in headers for chat service
+[33m4187ad9[m HEAD@{23}: commit: feat(chat): initialize chat service with routes and package.json
+[33m3dda917[m HEAD@{24}: commit: feat(redux): set up Redux store and user slice for state management
+[33mea9b80b[m HEAD@{25}: commit: feat(auth): implement getCurrentUser endpoint and update authentication middleware
+[33m42ca058[m HEAD@{26}: commit: feat(auth): add authentication middleware and integrate Google login in Home component
+[33m49d64ed[m HEAD@{27}: commit: feat(auth): implement session management with Redis for login and logout
+[33mef43689[m HEAD@{28}: commit: feat(auth): initialize authentication service with Express and Firebase
+[33m1eb1fec[m HEAD@{29}: commit (initial): feat: initialize frontend with React, Vite, and Tailwind CSS
