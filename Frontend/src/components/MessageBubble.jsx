@@ -20,7 +20,7 @@ function MessageBubble({ role, content, images, artifacts = [] }) {
 
 
   return (
-    <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
+    <div className={`beast-message flex ${isUser ? "justify-end" : "justify-start"}`}>
       <div className={`w-fit max-w-[92vw] md:max-w-[72%]
   px-4 py-2.5 rounded-2xl
   break-words overflow-hidden

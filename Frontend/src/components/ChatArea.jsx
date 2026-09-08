@@ -37,7 +37,7 @@ console.log(data)
   getMesg()
   },[selectedConversation?._id ])
   return (
-    <div className='flex-1 flex flex-col min-w-0'>
+    <div className='beast-chat flex-1 flex flex-col min-w-0'>
       <Nav/>
       <MessageList key={userData?._id}/>
       <ChatInput/>

@@ -232,7 +232,7 @@ function Artifact() {
           duration: 0.25,
           ease: easeInOut
         }}
-        className='hidden lg:flex h-full border-l border-white/[0.06] flex-col overflow-hidden shrink-0 '>
+        className='beast-artifact hidden lg:flex h-full border-l border-white/[0.06] flex-col overflow-hidden shrink-0 '>
 
         <PanelContent />
       </motion.div>

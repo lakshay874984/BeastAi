@@ -1,1 +1,147 @@
 @import "tailwindcss";
+
+:root {
+	--beast-ink: #090b0f;
+	--beast-panel: #101319;
+	--beast-panel-raised: #171a22;
+	--beast-line: rgba(255, 255, 255, 0.08);
+	--beast-red: #ef4444;
+	--beast-red-deep: #991b1b;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+.app-workspace {
+	position: relative;
+	background:
+		radial-gradient(circle at 68% -10%, rgba(153, 27, 27, 0.24), transparent 32rem),
+		radial-gradient(circle at 12% 110%, rgba(127, 29, 29, 0.14), transparent 28rem),
+		var(--beast-ink) !important;
+}
+
+.app-workspace::before {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	pointer-events: none;
+	content: '';
+	opacity: 0.3;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+	background-size: 44px 44px;
+	mask-image: linear-gradient(to bottom, black, transparent 88%);
+}
+
+.beast-sidebar,
+.beast-chat,
+.beast-artifact,
+.beast-nav,
+.beast-composer {
+	position: relative;
+	z-index: 1;
+}
+
+.beast-sidebar {
+	background: linear-gradient(180deg, rgba(20, 22, 29, 0.98), rgba(9, 11, 15, 0.99)) !important;
+	border-color: var(--beast-line) !important;
+	box-shadow: 12px 0 38px rgba(0, 0, 0, 0.18);
+}
+
+.beast-sidebar .text-slate-100,
+.beast-sidebar > div > div:first-child span,
+.beast-empty h1,
+.beast-login h2 {
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.beast-chat {
+	background: rgba(9, 11, 15, 0.62);
+}
+
+.beast-nav {
+	background: rgba(13, 15, 20, 0.78) !important;
+	border-color: var(--beast-line) !important;
+	backdrop-filter: blur(18px);
+}
+
+.beast-messages {
+	background: linear-gradient(180deg, rgba(17, 19, 24, 0.2), transparent 34%);
+	scrollbar-color: rgba(239, 68, 68, 0.35) transparent;
+}
+
+.beast-message > div {
+	transition: transform 180ms ease, filter 180ms ease;
+}
+
+.beast-message > div:hover {
+	filter: brightness(1.06);
+}
+
+.beast-message > div[class*='from-red'] {
+	box-shadow: 0 10px 25px rgba(127, 29, 29, 0.2);
+}
+
+.beast-message code:not([class]) {
+	border: 1px solid rgba(248, 113, 113, 0.14);
+}
+
+.beast-empty h1 {
+	color: #fff !important;
+	letter-spacing: -0.04em;
+}
+
+.beast-empty h1::after {
+	display: block;
+	width: 28px;
+	height: 3px;
+	margin: 12px auto 0;
+	content: '';
+	background: var(--beast-red);
+	border-radius: 999px;
+	box-shadow: 0 0 18px rgba(239, 68, 68, 0.72);
+}
+
+.beast-composer {
+	background: linear-gradient(180deg, rgba(13, 15, 20, 0.82), rgba(9, 11, 15, 0.98)) !important;
+	border-color: var(--beast-line) !important;
+}
+
+.beast-composer > div {
+	background: linear-gradient(145deg, rgba(31, 33, 41, 0.82), rgba(16, 18, 23, 0.95)) !important;
+	border-color: rgba(255, 255, 255, 0.1) !important;
+	box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24), inset 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.beast-composer textarea {
+	min-height: 4.4rem;
+}
+
+.beast-composer button.bg-linear-to-br,
+.beast-sidebar button.bg-linear-to-br {
+	box-shadow: 0 9px 24px rgba(185, 28, 28, 0.24);
+}
+
+.beast-artifact {
+	background: linear-gradient(180deg, rgba(18, 20, 27, 0.98), rgba(9, 11, 15, 0.99)) !important;
+	border-color: var(--beast-line) !important;
+	box-shadow: -14px 0 38px rgba(0, 0, 0, 0.15);
+}
+
+#root .fixed.inset-0.z-50 .relative.z-10.w-\[360px\] {
+	border-color: rgba(248, 113, 113, 0.3) !important;
+	background: linear-gradient(145deg, rgba(23, 18, 21, 0.8), rgba(5, 6, 8, 0.76)) !important;
+	box-shadow: 0 24px 80px rgba(0, 0, 0, 0.56), 0 0 55px rgba(127, 29, 29, 0.2) !important;
+	animation: beast-card-rise 650ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes beast-card-rise {
+	from { opacity: 0; transform: translateY(14px) scale(0.98); }
+	to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 640px) {
+	.beast-messages { padding: 1.25rem 1rem; }
+	.beast-composer { padding: 0.75rem; }
+	#root .fixed.right-0.top-0.w-\[380px\] { width: min(380px, 100vw) !important; }
+}

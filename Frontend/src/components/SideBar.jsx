@@ -37,7 +37,7 @@ function SideBar() {
 
     if (collapsed) {
         return (
-            <div className='hidden lg:flex flex-col items-center w-[56px] h-screen bg-[#0d0f14] border-r border-white/[0.06] py-4 gap-1 shrink-0'>
+            <div className='beast-sidebar hidden lg:flex flex-col items-center w-[56px] h-screen bg-[#0d0f14] border-r border-white/[0.06] py-4 gap-1 shrink-0'>
                 <button className='flex items-center justify-center w-9 h-9 rounded-xl text-slate-500 hover:text-slate-200 hover:bg-white/[0.05] transition-colors duration-150 bg-transparent border-none cursor-pointer mb-1'
                     onClick={() => setCollapsed(false)}
                 >
@@ -107,7 +107,7 @@ function SideBar() {
   
 
 
-        <div className={` fixed lg:static inset-y-0 left-0 z-50
+        <div className={`beast-sidebar fixed lg:static inset-y-0 left-0 z-50
         w-[270px] h-screen shrink-0
         bg-[#0d0f14] border-r border-white/[0.06]
         transition-transform duration-250

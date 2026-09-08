@@ -15,36 +15,29 @@ function LoadingAnimation() {
     const label = Thinking_Lables[labelIndex]
 
     return (
-        <div className='flex items-center gap-3 max-w-[72%] py-1'>
-            <div className='relative w-9 h-9 flex items-center justify-center shrink-0'>
-                {
-                    [0, 0.45, 0.9].map((delay, i) => (
-                        <motion.div
-                            key={i}
-                            className="absolute inset-0 rounded-full border border-cyan-400/30"
-                            initial={{ scale: 0.3, opacity: 0.55 }}
-                            animate={{ scale: 1.7, opacity: 0 }}
-                            transition={{
-                                duration: 1.8,
-                                repeat: Infinity,
-                                delay,
-                                ease: "easeOut",
-                            }}
-
-                        />
-                    ))
-                }
-
+        <div className='beast-loading flex items-center gap-3 max-w-[72%] py-1'>
+            <div className='loading-beacon relative flex h-9 w-10 items-end justify-center gap-1.5 rounded-xl border border-red-400/15 bg-red-950/20 px-2.5 pb-2 pt-1.5 shrink-0'>
+                {[0, 1, 2].map((bar) => (
+                    <motion.span
+                        key={bar}
+                        className='w-1.5 rounded-full bg-linear-to-t from-red-700 via-red-400 to-red-200'
+                        animate={{ height: ['35%', '90%', '52%', '78%', '35%'], opacity: [0.55, 1, 0.7, 1, 0.55] }}
+                        transition={{
+                            duration: 1.25,
+                            repeat: Infinity,
+                            delay: bar * 0.16,
+                            ease: 'easeInOut',
+                        }}
+                        style={{ boxShadow: '0 0 12px rgba(248, 113, 113, 0.45)' }}
+                    />
+                ))}
                 <motion.span
-                    className="w-2.5 h-2.5 rounded-full bg-gradient-to-br from-red-300 to-red-600"
-                    style={{ boxShadow: "0 0 14px rgba(125,211,252,0.55)" }}
-                    animate={{ scale: [1, 1.25, 1] }}
-                    transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
-
-
+                    className='absolute bottom-1 left-2.5 right-2.5 h-px bg-red-300/70'
+                    animate={{ opacity: [0.35, 0.9, 0.35] }}
+                    transition={{ duration: 1.25, repeat: Infinity, ease: 'easeInOut' }}
                 />
             </div>
-            <div className='flex overflow-hidden'>
+            <div className='loading-label flex overflow-hidden rounded-full border border-red-400/10 bg-red-950/20 px-3 py-1.5'>
                 <AnimatePresence mode='wait'>
                     <motion.div
                         key={label}

@@ -7,7 +7,7 @@ const {selectedConversation}=useSelector(state=>state.conversation)
 const {messages}=useSelector(state=>state.message)
   return (
 <>
-    {selectedConversation &&   <div className='h-14 flex items-center gap-2.5  px-5 border-b border-white/[0.06] bg-[#0d0f14]'>
+    {selectedConversation &&   <div className='beast-nav h-14 flex items-center gap-2.5 px-5 border-b border-white/[0.06] bg-[#0d0f14]'>
       <div className='flex items-center justify-center w-7 h-7 rounded-lg bg-red-700/10 border border-red-700/20'>
         <MessageSquare size={13} className="text-red-400"/>
       </div>
